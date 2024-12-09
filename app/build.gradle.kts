@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.danyllaven.authenticationapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.danyllaven.authenticationapp"

@@ -59,6 +59,13 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+    implementation ("androidx.navigation:navigation-compose:2.5.3")
+    implementation ("com.google.accompanist:accompanist-webview:0.31.1-alpha") // Para WebView en Jetpack Compose
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0") // Para peticiones HTTP
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("androidx.activity:activity-ktx:1.9.3")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
